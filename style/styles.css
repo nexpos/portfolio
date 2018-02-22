@@ -1,0 +1,134 @@
+.box {
+  width: 100%;
+  padding: 0px 20px 20px;
+}
+
+
+
+.thumbnail {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.middle_1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.middle_2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.pic:hover .thumbnail {
+  opacity: 0.3;
+}
+
+.pic:hover .middle {
+  opacity: 1;
+}
+
+.pic:hover .middle_1 {
+  opacity: 1;
+}
+
+.pic:hover .middle_2 {
+  opacity: 1;
+}
+
+.text {
+  background-color: white;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.text:hover a {
+  color: red;
+  text-decoration: none;
+}
+
+#about, #skills, #projects{
+   background-color: #48ACF0;
+   font-family: Saira Semi Condensed;
+   padding: 0px 20px 20px;
+   margin-left: -20px;
+   margin-right: -20px;
+
+}
+
+#topcontent, #midcontent, #bottomcontent{
+  background: linear-gradient(rgba(239, 233, 244, 0.9),
+              rgba(239, 233, 244, 0.8));
+  background-color: #FCFCFC;
+  padding: 0px 20px 20px;
+}
+
+#wrapper {
+  background-color: #48ACF0;
+}
+
+footer {
+  border-top-color: black;
+  border-top-style: solid;
+  padding-top: 10px;
+}
+.navbar-text{
+  font-family: Saira Semi Condensed;
+}
+
+.container-fluid a {
+  margin-right: 10px;
+}
+  .col-md-8{
+    padding-top: 50px;
+    font-size: 18px;
+    padding-bottom: 50px;
+  }
+  .page-header{
+    text-align: justify;
+    padding-left: 60px;
+
+  }
+  .img-responsive {
+    margin-left: 65px;
+    margin-top: 30px;
+  }
+  .list-inline{
+    font-weight: bold;
+    font-size: 40px;
+    color: #060C14;
+    padding-bottom: 10px;
+  }
+  .skills{
+    padding-bottom: 50px;
+
+  }
+
+  #about small, #skills small, #projects small{
+    color: white;
+  }
